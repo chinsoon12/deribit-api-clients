@@ -16,7 +16,7 @@
 Types <- R6::R6Class(
   'Types',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {
